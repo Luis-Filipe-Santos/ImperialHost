@@ -69,3 +69,47 @@ nav {
     background-color: #22bb5f;
 }
 
+/* main banner */
+
+.main-banner{
+    background-image: url('./img/mainbanner.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    position: relative;
+}
+
+.main-banner h1, .main-banner p{
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+}   
+
+.main-banner h1{
+    font-size: 54px;
+}
+
+.main-banner p{
+    font-size: 32px;
+}
+
+/* especialidades */
+
+.specialties-container{
+    padding: 5em 0;
+}
+
+.specialties-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+.specialties-container ul li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
